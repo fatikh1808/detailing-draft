@@ -1,0 +1,19 @@
+.heading {
+    .h2 {
+        font-weight: 800;
+        font-size: 40px;
+        text-transform: uppercase;
+        line-height: 40px;
+    }
+
+    &__sub {
+        font-size: 14px;
+    }
+
+    &__underline {
+        width: 15%;
+        max-width: 150px;
+        height: 3px;
+        background: linear-gradient(to right, #470e17 0%, #ff0004 100%);
+    }
+}
