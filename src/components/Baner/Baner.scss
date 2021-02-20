@@ -1,5 +1,5 @@
 .main-preview {
-    height: 80vh;
+    height: 90vh;
     min-height: 550px;
 
     img {
@@ -15,8 +15,17 @@
         left: 0;
     }
 
-    &__description {
-        width: 40%;
+    &__special {
+        width: 100%;
+        right: 0;
+        bottom: 10%;
+
+        span {
+            display: block;
+            font-size: 100px;
+            font-weight: 700;
+            line-height: 100px;
+        }
     }
 
     &::before {

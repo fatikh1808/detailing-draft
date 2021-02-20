@@ -37,6 +37,12 @@ export default function Baner() {
                     <Button text={"К услугам"} />
                 </div>
             </div>
+            <div className={"main-preview__special absolute text-white"}>
+                <div className="container mx-auto flex items-end flex-col">
+                    <span>15%</span>
+                    Скидка первому выжевшему
+                </div>
+            </div>
         </div>
     );
 }

@@ -9,7 +9,9 @@ export default function Gallery() {
                 <div className="container mx-auto">
                     <Heading
                         text={"Наши работы"}
-                        subText={"Тестовый подзаголовок"}
+                        subText={
+                            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. "
+                        }
                     />
                 </div>
                 <div className="container mx-auto py-14">

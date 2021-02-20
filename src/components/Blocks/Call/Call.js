@@ -13,9 +13,10 @@ export default function Call() {
                     <Heading
                         text={"Позвоните нам"}
                         subText={
-                            "Чтобы оставить заявку, нужно нажать на кнопку"
+                            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit."
                         }
                         underline={false}
+                        subTextClassName={"mb-20"}
                         light
                     />
                     <div className="call__content">

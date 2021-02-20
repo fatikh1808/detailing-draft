@@ -20,7 +20,7 @@ export default function Map() {
                     </div>
                     <div
                         className={
-                            "map__contacts relative flex-1 px-8 py-6 md:px-20 md:py-12 text-white"
+                            "map__contacts relative flex-1 px-8 py-6 md:px-20 md:py-14 text-white"
                         }
                     >
                         <div className={"relative"}>
