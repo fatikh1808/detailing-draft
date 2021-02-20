@@ -1,0 +1,30 @@
+.navigation {
+    &__link {
+        font-size: 18px;
+        font-weight: 600;
+        text-transform: uppercase;
+        line-height: 18px;
+
+        &:before {
+            content: "";
+            position: absolute;
+            width: 0%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background-color: #fff;
+            mix-blend-mode: exclusion;
+            transition: width .3s ease-out;
+            pointer-events: none;
+        }
+
+        &:hover,
+        &:focus {
+            outline: none;
+
+            &:before {
+                width: 100%;
+            }
+        }
+    }
+}

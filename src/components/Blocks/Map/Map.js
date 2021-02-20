@@ -1,5 +1,8 @@
 import Heading from "../../Heading";
 import Block from "../../../containers/Block";
+import Icon from "../../elements/Icon";
+
+import "./Map.scss";
 
 export default function Map() {
     return (
@@ -15,11 +18,26 @@ export default function Map() {
                             frameborder="0"
                         />
                     </div>
-                    <div className={"map__contacts flex-1 px-14"}>
-                        <Heading text={"Как нас найти"} left />
-                        <div>Адрес</div>
-                        <div>Телефон</div>
-                        <div>Соцсети</div>
+                    <div
+                        className={
+                            "map__contacts relative flex-1 px-8 py-6 md:px-20 md:py-12 text-white"
+                        }
+                    >
+                        <div className={"relative"}>
+                            <Heading text={"Как нас найти"} left />
+                            <div className={"mb-4"}>
+                                <Icon type={"direction"} />
+                                Люберцы, ул. Кооперативная, д. 12
+                            </div>
+                            <div className={"mb-4"}>
+                                Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit.{" "}
+                            </div>
+                            <div className={"mb-4"}>
+                                <Icon type={"phone"} />
+                                +7 (983) 122-32-32
+                            </div>
+                        </div>
                     </div>
                 </div>
             </Block>

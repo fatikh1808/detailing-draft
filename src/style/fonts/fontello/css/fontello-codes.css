@@ -1,0 +1,8 @@
+
+.dk-location:before { content: '\e800'; } /* '' */
+.dk-phone:before { content: '\e801'; } /* '' */
+.dk-twitter:before { content: '\f099'; } /* '' */
+.dk-direction:before { content: '\f124'; } /* '' */
+.dk-youtube-play:before { content: '\f16a'; } /* '' */
+.dk-instagram:before { content: '\f16d'; } /* '' */
+.dk-vkontakte:before { content: '\f189'; } /* '' */

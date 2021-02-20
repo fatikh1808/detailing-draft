@@ -7,6 +7,8 @@ import Reviews from "./components/Blocks/Reviews";
 import Gallery from "./components/Blocks/Gallery";
 import Map from "./components/Blocks/Map";
 
+import "./style/index.scss";
+
 function App() {
     return (
         <Layout>

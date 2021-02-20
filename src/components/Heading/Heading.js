@@ -9,13 +9,16 @@ export default function Heading({
     text = "",
     subText = "",
     className = "",
-    underline = true,
-    light = false,
-    center = true,
-    left = false,
-    right = false,
+    underline,
+    light,
+    center,
+    left,
+    right,
+    subTextStyle = {},
+    subTextClassName = "",
 }) {
     const headingMap = {
+        h1: "h1",
         h2: "h2",
     };
 
@@ -46,7 +49,12 @@ export default function Heading({
                 [text]
             )}
             {subText && (
-                <span className={"heading__sub block mb-4"}>{subText}</span>
+                <span
+                    className={cx("heading__sub block mb-4", subTextClassName)}
+                    style={subTextStyle}
+                >
+                    {subText}
+                </span>
             )}
             {underline && <span className={"heading__underline flex mb-4"} />}
         </div>

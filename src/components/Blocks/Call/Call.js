@@ -3,13 +3,15 @@ import Block from "../../../containers/Block";
 
 import "./Call.scss";
 
+import Button from "../../elements/Button";
+
 export default function Call() {
     return (
-        <div className={"call"}>
+        <div className={"call relative"}>
             <Block>
-                <div className="container flex flex-col items-center mx-auto">
+                <div className="container relative flex flex-col items-center mx-auto px-8 md:p-0 text-white">
                     <Heading
-                        text={"Оставьте заявку на обратную связь"}
+                        text={"Позвоните нам"}
                         subText={
                             "Чтобы оставить заявку, нужно нажать на кнопку"
                         }
@@ -17,7 +19,7 @@ export default function Call() {
                         light
                     />
                     <div className="call__content">
-                        <button>оставить заявку</button>
+                        <Button text={"Позвоните нам"} />
                     </div>
                 </div>
             </Block>
