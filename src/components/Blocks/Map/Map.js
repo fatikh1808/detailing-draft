@@ -8,7 +8,7 @@ export default function Map() {
     return (
         <div className={"map"}>
             <Block className={"p-0"}>
-                <div className={"container mx-auto flex flex-col md:flex-row"}>
+                <div className={"flex flex-col md:flex-row"}>
                     <div className={"map__navigation flex-1"}>
                         <iframe
                             title={"map"}

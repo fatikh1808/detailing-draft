@@ -3,12 +3,14 @@ import Block from "../../../containers/Block";
 
 import "./About.scss";
 
+import AboutImage from "../../../img/left-side-golf.jpeg";
+
 export default function About() {
     return (
-        <div className={"about"}>
-            <Block>
-                <div className="container mx-auto flex">
-                    <div className={"about__description flex-1"}>
+        <div className={"about relative"}>
+            <Block className={"p-0"}>
+                <div className="container mx-auto">
+                    <div className={"about__main w-6/12 py-14 pr-6"}>
                         <Heading
                             text={"О компании"}
                             subText={
@@ -30,7 +32,13 @@ export default function About() {
                             твердую гарантию на все виды работ.
                         </p>
                     </div>
-                    <div className={"about__image flex-1"}></div>
+                    <div
+                        className={
+                            "about__image absolute right-0 top-0 h-full w-6/12"
+                        }
+                    >
+                        <img src={AboutImage} alt="" />
+                    </div>
                 </div>
             </Block>
         </div>

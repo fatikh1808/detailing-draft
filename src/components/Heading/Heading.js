@@ -50,13 +50,13 @@ export default function Heading({
             )}
             {subText && (
                 <span
-                    className={cx("heading__sub block mb-4", subTextClassName)}
+                    className={cx("heading__sub block mb-6", subTextClassName)}
                     style={subTextStyle}
                 >
                     {subText}
                 </span>
             )}
-            {underline && <span className={"heading__underline flex mb-4"} />}
+            {underline && <span className={"heading__underline flex mb-6"} />}
         </div>
     );
 }

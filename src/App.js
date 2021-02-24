@@ -13,6 +13,7 @@ function App() {
     return (
         <Layout>
             <Baner />
+            <div className={"my-20"}></div>
             <About />
             <Services />
             <Call />
