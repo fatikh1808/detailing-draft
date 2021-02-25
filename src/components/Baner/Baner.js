@@ -21,12 +21,11 @@ export default function Baner() {
                                 Казань
                             </>
                         }
-                        subText={`Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Nisi, tempora eos impedit et quos porro numquam
-                        laborum ab repudiandae sint deleniti cumque
-                        voluptatibus. Facere, eaque minima voluptatum quod
-                        aliquid ipsum. Lorem ipsum dolor sit, amet consectetur
-                        adipisicing elit.`}
+                        subText={`
+                        Правильный уход за вашим автомобилем.
+
+                        Мы предлагаем Вам комплекс высокотехнологических услуг по тщательному и полному уходу за автомобилем
+                        `}
                         underline={false}
                         subTextStyle={{
                             width: "40%",
