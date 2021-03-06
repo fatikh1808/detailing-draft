@@ -14,7 +14,7 @@
             left: 0;
             background-color: #fff;
             mix-blend-mode: exclusion;
-            transition: width .3s ease-out;
+            transition: width 0.3s ease-out;
             pointer-events: none;
         }
 
@@ -24,6 +24,18 @@
 
             &:before {
                 width: 100%;
+            }
+        }
+    }
+}
+
+.drawer {
+    .drawer-content-wrapper {
+        .drawer-content {
+            padding: 1rem;
+
+            .ant-menu-inline {
+                border: 0;
             }
         }
     }

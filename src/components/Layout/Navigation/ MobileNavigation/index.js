@@ -6,30 +6,35 @@ import Drawer from "rc-drawer";
 export default function MobileNavigation() {
     return (
         <MobileView>
-            <Drawer parent={null} level={null} width={240} placement={"right"}>
-                <Menu style={{ width: 240 }} mode="inline">
+            <Drawer
+                parent={null}
+                level={null}
+                width={"auto"}
+                placement={"right"}
+            >
+                <Menu mode="inline">
                     <ul className={"navigation__list flex flex-col"}>
-                        <li className={"navigation__item ml-6"}>
+                        <li className={"navigation__item mb-4"}>
                             <a href="" className={"navigation__link relative"}>
                                 Главная
                             </a>
                         </li>
-                        <li className={"navigation__item ml-6"}>
+                        <li className={"navigation__item mb-4"}>
                             <a href="" className={"navigation__link relative"}>
                                 О нас
                             </a>
                         </li>
-                        <li className={"navigation__item ml-6"}>
+                        <li className={"navigation__item mb-4"}>
                             <a href="" className={"navigation__link relative"}>
                                 Услуги
                             </a>
                         </li>
-                        <li className={"navigation__item ml-6"}>
+                        <li className={"navigation__item mb-4"}>
                             <a href="" className={"navigation__link relative"}>
                                 Контакты
                             </a>
                         </li>
-                        <li className={"navigation__item ml-6"}>
+                        <li className={"navigation__item mb-4"}>
                             <a href="" className={"navigation__link relative"}>
                                 Галерея
                             </a>
