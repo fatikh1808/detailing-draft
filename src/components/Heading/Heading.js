@@ -63,7 +63,7 @@ export default function Heading({
 
 Heading.propTypes = {
     type: PropTypes.string.isRequired,
-    text: PropTypes.string,
+    text: PropTypes.object,
     subText: PropTypes.string,
     className: PropTypes.string,
     underline: PropTypes.bool,
@@ -75,7 +75,7 @@ Heading.propTypes = {
 
 Heading.defaultProps = {
     type: "h2",
-    text: "",
+    text: {},
     subText: "",
     className: "",
     underline: true,

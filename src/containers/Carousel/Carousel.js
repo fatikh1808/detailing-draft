@@ -13,14 +13,16 @@ const slides = {
 export default function Carousel({ params, items }) {
     return (
         <Swiper {...params}>
-            {items.map(({ type, items }, idx) => (
-                <SwiperSlide>
-                    {createElement(
-                        slides[type],
-                        { items, even: !!(idx % 2) },
-                        null
-                    )}
-                </SwiperSlide>
+            {items.map(({ type, items, index }, idx) => (
+                <div key={index}>
+                    <SwiperSlide>
+                        {createElement(
+                            slides[type],
+                            { items, even: !!(idx % 2) },
+                            null
+                        )}
+                    </SwiperSlide>
+                </div>
             ))}
         </Swiper>
     );

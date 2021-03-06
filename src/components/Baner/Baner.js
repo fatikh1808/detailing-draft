@@ -21,6 +21,7 @@ export default function Baner() {
                                 Казань
                             </>
                         }
+                        className={"text-5xl font-bold sm:text-7xl lg:text-9xl"}
                         subText={`
                         Правильный уход за вашим автомобилем.
 
@@ -38,7 +39,11 @@ export default function Baner() {
             </div>
             <div className={"main-preview__special absolute text-white"}>
                 <div className="container mx-auto flex items-end flex-col">
-                    <span>15%</span>
+                    <span
+                        className={"text-5xl font-bold sm:text-7xl lg:text-9xl"}
+                    >
+                        15%
+                    </span>
                     Скидка первому выжевшему
                 </div>
             </div>

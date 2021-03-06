@@ -19,6 +19,7 @@ export default function GridSlide({ items, even }) {
                         <TagName
                             className={"grid-slide__img relative"}
                             href={url}
+                            key={url}
                         >
                             <img key={idx} src={src} alt={alt} title={title} />
                             <span
